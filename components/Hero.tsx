@@ -22,6 +22,12 @@ const Hero = () => {
       {/* Radial gradient for the container to give a faded look */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100" />
       </div>
+
+      <div className='flex justify-center relative my-20 z-10'>
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center items-center">
+          <h2 className='uppercase tracking-widest text-xs text-center  dark:text-blue-100 text-black-100 max-w-80'>Dynamic Web Magic with Next.js</h2>
+        </div>
+      </div>
     </div>
   )
 }
