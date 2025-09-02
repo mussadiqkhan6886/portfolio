@@ -1,8 +1,15 @@
+'use client';
+
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { Globe } from "./Globe";
 import { GridGlobe } from "./GridGlobe";
+import {useState} from "react"
+import animationData from "@/data/confetti.json"
+import Lottie from "lottie-react"
+import MagicButton from "./MagicButton";
+import {IoCopyOutline} from "react-icons/io5"
 
 export const BentoGrid = ({
   className,
@@ -42,6 +49,19 @@ export const BentoGridItem = ({
   imgClassName?: string
   titleClassName?: string
 }) => {
+
+  const [copied, setCopied] = useState<boolean>(false)
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText("mussadiqkhan6886@gmail.com")
+
+    setCopied(true)
+
+    setTimeout(() => {
+      setCopied(false)
+    }, 1300)
+  }
+
   return (
     <div
       className={cn(
@@ -65,7 +85,7 @@ export const BentoGridItem = ({
 
           {id === 6 && (
             <BackgroundGradientAnimation>
-              <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
+              {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
             </BackgroundGradientAnimation>
           )}
 
@@ -95,8 +115,21 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
+
+          {id === 6 && (
+            <div className="mt-5 relative">
+              <div className={'absolute -bottom-5 right-0'}>
+                <Lottie  animationData={animationData}
+                  loop={copied}
+                  autoplay={copied}
+                  style={{ height: 200, width: 200 }} />
+              </div>
+              <MagicButton title={copied ? "Email Copied" : "Email"} icon={<IoCopyOutline />} position="left" otherClasses="!bg-[#161a31]" handleClick={handleCopy} />
+            </div>
+          )}
       </div>
     </div>
     </div>
   );
 };
+
