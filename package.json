@@ -12,6 +12,8 @@
     "@react-three/drei": "^10.7.4",
     "@react-three/fiber": "^9.3.0",
     "clsx": "^2.1.1",
+    "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.12",
     "lottie": "^0.0.1",
     "lottie-react": "^2.4.1",

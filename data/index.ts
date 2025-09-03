@@ -52,7 +52,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Currently building a 2d Gaming Platform",
-    description: "The Inside Scoop",
+    description: "Gameology",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "dark:bg-transparent bg-gray-500 absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -76,15 +76,15 @@ export const projects = [
     id: 1,
     title: "Promptopia ",
     des: "Create and Search AI Prompts for your daily use.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/promptPic.png",
+    iconLists: ["/icons8-tailwindcss-48.png", "/next.svg", "/ts.svg", "/MongoDB.png", "/nextauth.png"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
     title: "Cryptoverse",
-    des: "Check Cryptos Real time Latest News and Market level for your next investment.",
-    img: "/p2.svg",
+    des: "Check Cryptos Real time Latest News and Market level for your next investment, Friendly UI and UX.",
+    img: "/cryPic.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -92,15 +92,15 @@ export const projects = [
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/adminPic.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Zayphire",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    img: "/zaypPic.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -188,5 +188,5 @@ export const socialMedia = [
 
 
 export const icons = [
-  "/Three.js.png", "/Sass.png", "/Redux.png", "/React.png", "/nextauth.png", "/motion.png", "/MongoDB.png", "/icons8-typescript-48.png", "/Ant Design.png", "/icons8-bootstrap-48.png", "/icons8-c++-48.png", "/icons8-css-48.png", "/icons8-github-48.png", "/icons8-figma-48.png", "/icons8-html-48.png", "/icons8-illustrator-48.png", "/icons8-javascript-48.png", "/icons8-material-ui-48.png", "/icons8-nextjs-48.png", "/icons8-photoshop-48.png", "/icons8-python-48.png", "/icons8-tailwindcss-48.png", "/icons8-typescript-48.png"
+  "/three.svg", "/Sass.png", "/Redux.png", "/React.png", "/nextauth.png", "/fm.svg", "/MongoDB.png", "/icons8-typescript-48.png", "/Ant Design.png", "/icons8-bootstrap-48.png", "/icons8-c++-48.png", "/icons8-css-48.png", "/icons8-github-48.png", "/icons8-figma-48.png", "/icons8-html-48.png", "/icons8-illustrator-48.png", "/icons8-javascript-48.png", "/icons8-material-ui-48.png", "/next.svg", "/icons8-photoshop-48.png", "/icons8-python-48.png", "/icons8-tailwindcss-48.png", "/icons8-typescript-48.png"
 ]

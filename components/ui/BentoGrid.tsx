@@ -97,7 +97,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex dark:text-white text-gray-800 gap-1 lg:gap-5 top-0 w-fit absolute right-1">
               <div className="flex flex-col gap-3 ">
-                {['Frontend', 'SEO', 'Designing'].map(
+                {['Frontend', 'SEO', 'UI/UX'].map(
                   (item) => (
                     <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-60 lg:opacity-100 rounded-lg text-center dark:bg-[#10132E] bg-gray-300">{item}</span>
                   )
