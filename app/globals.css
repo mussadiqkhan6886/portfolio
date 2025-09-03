@@ -1,6 +1,8 @@
 @import "tailwindcss";
-
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @config "../tailwind.config.ts";
+
+
 
 @layer base {
   :root {
@@ -67,8 +69,8 @@
 }
 
 @layer base {
-  * {
-    @apply border-border !scroll-smooth;
+  *{
+    @apply !scroll-smooth
   }
   body {
     @apply bg-background text-foreground;
@@ -80,6 +82,23 @@
 
 @layer utilities {
   .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
+    @apply font-bold text-4xl md:text-5xl text-center  ;
+  }
+}
+
+@theme inline {
+  --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
+    var(--delay, 0ms);
+
+  @keyframes cell-ripple {
+    0% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.4;
+    }
   }
 }

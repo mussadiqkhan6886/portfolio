@@ -3,7 +3,6 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { Globe } from "./Globe";
 import { GridGlobe } from "./GridGlobe";
 import {useState} from "react"
 import animationData from "@/data/confetti.json"
@@ -65,21 +64,21 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl border dark:border-white/[0.1] border-black/[0.2] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 dark:bg-[rgba(4,7,29)] bg-gray-200",
         className
       )}
-      style={{background: "rgba(4,7,29)", backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)"}}
+      style={{backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)"}}
     >
   
       <div className={`${id === 6 && 'flex justify-center h-full'}`}>
         <div className="w-full h-full absolute">
           {img && (
-            <Image alt={img} src={img} width={50} height={50} className={cn(imgClassName, 'object-cover, object-center')} />
+            <Image alt={img} src={img} width={80} height={80} className={cn(imgClassName, 'rounded-xl object-cover, object-center')} />
           )}
         </div>
         <div className={`${id === 5 && 'w-full opacity-80'} absolute right-0 -bottom-5`}>
           {spareImg && (
-             <Image alt={spareImg} src={spareImg} width={100} height={100} className={'object-cover object-center w-full h-full'} />
+             <Image alt={spareImg} src={spareImg} width={100} height={100} className={'object-cover rounded-xl object-center w-full h-full'} />
           )}
         </div>
 
@@ -89,27 +88,27 @@ export const BentoGridItem = ({
             </BackgroundGradientAnimation>
           )}
 
-          <div className={cn(titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10')}>
-            <div className="font-sans font-extralight dark:text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10 text-[#c1c2d3]">{description}</div>
-            <div className="font-sans font-bold text-lg dark:text-[#c1c2d3] lg:text-3xl z-10 max-w-96 text-[#c1c2d3]">
+          <div className={cn(titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-3 p-3 md:px-5 md:p-5 lg:p-6')}>
+            <div className="font-extralight  dark:text-[#c1c2d3] text-[13px] md:text-base mb-2 z-10 text-gray-800">{description}</div>
+            <div className="font-bold text-[16px]  lg:text-2xl z-10 max-w-96 text-gray-900">
               {title}
             </div>
           {id === 2 && <GridGlobe /> }
           {id === 3 && (
-            <div className="flex dark:text-white text-white gap-1 lg:gap-5 top-0 w-fit absolute right-1">
+            <div className="flex dark:text-white text-gray-800 gap-1 lg:gap-5 top-0 w-fit absolute right-1">
               <div className="flex flex-col gap-3 ">
-                {['React.js', 'Next.js', 'Typescript'].map(
+                {['Frontend', 'SEO', 'Designing'].map(
                   (item) => (
-                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">{item}</span>
+                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-60 lg:opacity-100 rounded-lg text-center dark:bg-[#10132E] bg-gray-300">{item}</span>
                   )
                 )}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+                <span className="py-4 px-3 rounded-lg text-center dark:bg-[#10132E] bg-gray-400" />
               </div>
               <div className="flex flex-col gap-3 ">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
-                {['Tailwindcss', "Next Auth", "Redux toolkit"].map(
+                <span className="py-4 px-3 rounded-lg text-center dark:bg-[#10132E] bg-gray-400" />
+                {['Next fullstack', "Logo Design", "Responsive"].map(
                   (item) => (
-                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">{item}</span>
+                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-gray-300">{item}</span>
                   )
                 )}
               </div>

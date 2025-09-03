@@ -8,11 +8,12 @@ import Client from '@/components/Client'
 import Experience from '@/components/Experience'
 import Approach from '@/components/Approach'
 import Skills from '@/components/Skills'
+import Footer from '@/components/Footer'
 
 const page = () => {
   return (
     <main className='relative dark:bg-black-100 bg-white flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5'>
-      <div className="max-w-7xl w-full">
+      <div className="max-w-8xl w-full">
         <FloatingNav navItems={navItems}  />
         <Hero /> 
         <Grid />
@@ -21,6 +22,7 @@ const page = () => {
         <Client />
         <Experience />
         <Approach />
+        <Footer />
       </div>
     </main>
   )

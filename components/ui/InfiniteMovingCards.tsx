@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -10,11 +11,7 @@ export const InfiniteMovingCards = ({
   pauseOnHover = true,
   className,
 }: {
-  items: {
-    quote: string;
-    name: string;
-    title: string;
-  }[];
+  items: string[]
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
@@ -80,41 +77,20 @@ export const InfiniteMovingCards = ({
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex w-max min-w-full shrink-0 flex-nowrap gap-16 py-4",
+          "flex w-max min-w-full shrink-0 flex-nowrap gap-10 py-4",
           start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]",
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="relative w-[90vw] max-w-full shrink-0 rounded-2xl border border-b-0 border-slate-800 p-5 md:p-16 md:w-[60vw] dark:border-zinc-700"
+            className="relative rounded-full p-1 md:p-5 dark:bg-[rgb(4,7,29)] bg-gray-300"
             key={idx}
             style={{
-              background: 'rgb(4,7,29,)',
               backgroundColor: 'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)'
             }}
           >
-            <blockquote>
-              <div
-                aria-hidden="true"
-                className="user-select-none pointer-events-none absolute -top-0.5 -left-0.5 -z-1 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
-              ></div>
-              <span className="relative z-20 text-sm md:text-lg leading-[1.6] font-normal text-white dark:text-gray-100">
-                {item.quote}
-              </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <div className="flex flex-col gap-1">
-                    <span className="text-xl leading-[1.6] font-bold   text-neutral-500 dark:text-white">
-                      {item.name}
-                    </span>
-                    <span className="text-sm leading-[1.6] font-normal text-neutral-500 dark:text-gray-400">
-                      {item.title}
-                    </span>
-                  </div>
-                </span>
-              </div>
-            </blockquote>
+              <Image src={item} alt={"logo icon skills"} width={80} height={80} />
           </li>
         ))}
       </ul>
