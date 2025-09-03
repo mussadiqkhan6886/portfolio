@@ -10,8 +10,8 @@ import { useEffect, useState } from "react";
 type Testimonial = {
   quote: string;
   name: string;
-  designation: string;
-
+  title: string;
+  src: string
 };
 export const AnimatedTestimonials = ({
   testimonials,
@@ -118,7 +118,7 @@ export const AnimatedTestimonials = ({
               {testimonials[active].name}
             </h3>
             <p className="text-sm text-gray-500 dark:text-neutral-500">
-              {testimonials[active].designation}
+              {testimonials[active].title}
             </p>
             <motion.p className="mt-8 text-lg text-gray-500 dark:text-neutral-300">
               {testimonials[active].quote.split(" ").map((word, index) => (

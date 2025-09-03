@@ -10,7 +10,7 @@ const Client = () => {
             <span className="dark:text-purple text-gray-600">satisfied Clients</span>
         </h1>
         <div className="flex items-center flex-col max-lg:mt-10">
-            <AnimatedTestimonials testimonials={[{quote: "Hello", name: "Muss", designation: "nice"},{quote: "Hello", name: "Muss", designation: "niceee"}]} autoplay={true} />
+            <AnimatedTestimonials testimonials={testimonials} />
         </div>
    </div>
   )
