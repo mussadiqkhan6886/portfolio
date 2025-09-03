@@ -77,7 +77,7 @@ export const projects = [
     title: "Promptopia ",
     des: "Create and Search AI Prompts for your daily use.",
     img: "/promptPic.png",
-    iconLists: ["/icons8-tailwindcss-48.png", "/next.svg", "/ts.svg", "/MongoDB.png", "/nextauth.png"],
+    iconLists: ["/tail.svg", "/next.svg", "/ts.svg", "/MongoDB.png", "/nextauth.png"],
     link: "/ui.earth.com",
   },
   {
@@ -85,23 +85,23 @@ export const projects = [
     title: "Cryptoverse",
     des: "Check Cryptos Real time Latest News and Market level for your next investment, Friendly UI and UX.",
     img: "/cryPic.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/redux.png", "/Ant Design.png", "/icons8-javascript-48.png"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Admin Dashboard",
+    des: "Admin Dashboard optimized then before with products and user tables and data to represent with charts.",
     img: "/adminPic.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/icons8-material-ui-48.png", "/Sass.png"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
     title: "Zayphire",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Professional Ecommerce store for Client, Order functionality, sorting and much more",
     img: "/zaypPic.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/icons8-javascript-48.png", "/icons8-css-48.png"],
     link: "/ui.apple.com",
   },
 ];
@@ -143,29 +143,29 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer Intern",
+    desc: "Assisted in the development of a web-based platform using Javascript, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Frontend Developer Intern",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Designed, Developed and maintained user-facing features using modern frontend technologies",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance Frontend",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Web development Freelancer",
+    desc: "Experienced Freelancer with satisfied clients and always bringing clients ideas to web.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Graphics Designer Freelancer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Creative Designer, Created Logos and businesses digital product Designs with Modern Technologies",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -175,18 +175,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: ""
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    url: ""
   },
   {
     id: 3,
     img: "/link.svg",
+    url: ""
   },
 ];
 
 
 export const icons = [
-  "/three.svg", "/Sass.png", "/Redux.png", "/React.png", "/nextauth.png", "/fm.svg", "/MongoDB.png", "/icons8-typescript-48.png", "/Ant Design.png", "/icons8-bootstrap-48.png", "/icons8-c++-48.png", "/icons8-css-48.png", "/icons8-github-48.png", "/icons8-figma-48.png", "/icons8-html-48.png", "/icons8-illustrator-48.png", "/icons8-javascript-48.png", "/icons8-material-ui-48.png", "/next.svg", "/icons8-photoshop-48.png", "/icons8-python-48.png", "/icons8-tailwindcss-48.png", "/icons8-typescript-48.png"
+  "/three.svg", "/Sass.png", "/Redux.png", "/re.svg", "/nextauth.png", "/fm.svg", "/MongoDB.png", "/ts.svg", "/Ant Design.png", "/icons8-bootstrap-48.png", "/icons8-c++-48.png", "/icons8-css-48.png", "/git.svg", "/icons8-figma-48.png", "/icons8-html-48.png", "/icons8-illustrator-48.png", "/icons8-javascript-48.png", "/icons8-material-ui-48.png", "/next.svg", "/icons8-photoshop-48.png", "/icons8-python-48.png", "/tail.svg"
 ]
