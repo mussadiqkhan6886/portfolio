@@ -90,7 +90,7 @@ export const BentoGridItem = ({
 
           <div className={cn(titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-3 p-3 md:px-5 md:p-5 lg:p-6')}>
             <div className="font-extralight  dark:text-[#c1c2d3] text-[13px] md:text-base mb-2 z-10 text-gray-800">{description}</div>
-            <div className="font-bold text-[16px]  lg:text-2xl z-10 max-w-96 text-gray-900">
+            <div className="font-bold text-[16px]  lg:text-2xl z-10 max-w-96 dark:text-white text-gray-900">
               {title}
             </div>
           {id === 2 && <GridGlobe /> }
@@ -108,7 +108,7 @@ export const BentoGridItem = ({
                 <span className="py-4 px-3 rounded-lg text-center dark:bg-[#10132E] bg-gray-400" />
                 {['Next fullstack', "Logo Design", "Responsive"].map(
                   (item) => (
-                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-gray-300">{item}</span>
+                   <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-60 lg:opacity-100 rounded-lg text-center dark:bg-[#10132E] bg-gray-300">{item}</span>
                   )
                 )}
               </div>

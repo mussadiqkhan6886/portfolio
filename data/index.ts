@@ -54,7 +54,7 @@ export const gridItems = [
     title: "Currently building a 2d Gaming Platform",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "bg-gray-500 absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "dark:bg-transparent bg-gray-500 absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
