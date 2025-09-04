@@ -105,11 +105,6 @@
 }
 
 
-/* Optional: dark theme hook */
-[data-theme="night"] {
-  --sb-track: #040816;
-}
-
 html {
   /* Helps keep layout stable with scrollbars */
   scrollbar-gutter: stable;
