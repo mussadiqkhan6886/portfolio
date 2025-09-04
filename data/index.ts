@@ -78,7 +78,7 @@ export const projects = [
     des: "Create and Search AI Prompts for your daily use.",
     img: "/promptPic.png",
     iconLists: ["/tail.svg", "/next.svg", "/ts.svg", "/MongoDB.png", "/nextauth.png"],
-    link: "/ui.earth.com",
+    link: "https://promptopiaai-coral.vercel.app/",
   },
   {
     id: 2,
@@ -86,7 +86,7 @@ export const projects = [
     des: "Check Cryptos Real time Latest News and Market level for your next investment, Friendly UI and UX.",
     img: "/cryPic.png",
     iconLists: ["/re.svg", "/tail.svg", "/redux.png", "/Ant Design.png", "/icons8-javascript-48.png"],
-    link: "/ui.yoom.com",
+    link: "https://cryptoverseredux.netlify.app/",
   },
   {
     id: 3,
@@ -94,7 +94,7 @@ export const projects = [
     des: "Admin Dashboard optimized then before with products and user tables and data to represent with charts.",
     img: "/adminPic.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/icons8-material-ui-48.png", "/Sass.png"],
-    link: "/ui.aiimg.com",
+    link: "https://typescriptadmindashbaord.netlify.app/",
   },
   {
     id: 4,
@@ -102,45 +102,38 @@ export const projects = [
     des: "Professional Ecommerce store for Client, Order functionality, sorting and much more",
     img: "/zaypPic.png",
     iconLists: ["/re.svg", "/tail.svg", "/icons8-javascript-48.png", "/icons8-css-48.png"],
-    link: "/ui.apple.com",
+    link: "https://zayphire.netlify.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Mussadiq Khan’s work is excellent! I received it a day before the deadline, and it turned out to be awesome—responsive, fast, and very user-friendly. I’m truly impressed with his skills and professionalism. The design is clean, modern, and exactly what I envisioned. His work has helped expand my startup, and he really knows how to turn ideas into something functional and attractive.",
     name: "Abdul Basit",
-    title: "Director of AlphaStream Technologies",
-    src: ""
+    title: "Client",
+    src: "/t1.png"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Giving work to mussadiq is peaceful u just have to put requirements and idea and he will bring that to internet. His work is professional and have 24/7 customer support. His creativity and work is outstanding have no doubt to come back to him and give him more work and impress me. Beyond being talented he's an amazing person to work with.",
     name: "Hashir Khan",
-    title: "Director of AlphaStream Technologies",
-    src: ""
+    title: "Student Bahria University",
+    src: "/t2.png"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Khushal khan",
-    src: ""
+      "I started my startup Ecommerce and I asked mussadiq to build me website and he did wonderful leaving me impress and wonder he is one of talented man and discipline to his work. No deadlines, he give you work on exact time i asked for he is wonderful man and good developer",
+    name: "Khushal Khan",
+    title: "Client",
+    src: "/t2.png"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Mussadiq Khan is a hardworking individual with a sharp mind. His work truly impressed me. Collaborating with him was easy, efficient, and always on time.",
     name: "Uzair Ahmad",
-    title: "Director of AlphaStream Technologies",
-    src: ""
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    src: ""
+    title: "Senior backend developer at sequenx b.v.",
+    src: "/t4.png"
   },
 ];
 
@@ -169,7 +162,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Graphics Designer Freelancer",
+    title: "Graphic Design Freelancer",
     desc: "Creative Designer, Created Logos and businesses digital product Designs with Modern Technologies",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -180,17 +173,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: ""
+    url: "https://github.com/mussadiqkhan6886"
   },
   {
     id: 2,
     img: "/insta.svg",
-    url: ""
+    url: "https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1"
   },
   {
     id: 3,
     img: "/link.svg",
-    url: ""
+    url: "https://www.linkedin.com/in/mussadiq-khan-2815aa34a/"
   },
 ];
 

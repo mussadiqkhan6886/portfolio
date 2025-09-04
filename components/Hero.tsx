@@ -1,9 +1,9 @@
 import React from 'react'
 import { Spotlight } from "./ui/Spotlight"
-import { cn } from '@/lib/utils'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import {FaLocationArrow} from "react-icons/fa"
+import { FaFile } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -29,7 +29,7 @@ const Hero = () => {
           </a>
           <a href="/resume.pdf"
           download="resume.pdf">
-            <MagicButton title="Download CV" icon={"/file.svg"} position='right' />
+            <MagicButton title="Download CV" icon={<FaFile />} position='right' />
           </a>
           </div>
         </div>

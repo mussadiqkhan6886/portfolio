@@ -6,6 +6,10 @@
 
 @layer base {
   :root {
+    --sb-track: #060a1a;                 /* deep night */
+  --sb-thumb-from: #0b5bff;            /* electric blue */
+  --sb-thumb-to:   #11a8ff;            /* cyan-ish edge */
+  --sb-glow: rgba(17, 168, 255, 0.55); /* glow */
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
 
@@ -69,9 +73,6 @@
 }
 
 @layer base {
-  *{
-    @apply !scroll-smooth
-  }
   body {
     @apply bg-background text-foreground;
   }
@@ -100,5 +101,71 @@
     100% {
       opacity: 0.4;
     }
+  }
+}
+
+
+/* Optional: dark theme hook */
+[data-theme="night"] {
+  --sb-track: #040816;
+}
+
+html {
+  /* Helps keep layout stable with scrollbars */
+  scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;                         /* auto | thin | none */
+  scrollbar-color: var(--sb-thumb-from) var(--sb-track);
+}
+
+/* WebKit (Chrome/Edge/Brave/Safari/Opera) */
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track {
+  background: radial-gradient(120% 120% at 10% 10%, rgba(11,91,255,0.06), transparent 60%),
+              linear-gradient(180deg, rgba(7,14,45,0.6), rgba(4,8,22,0.8));
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  border: 2px solid transparent; /* creates a “gap” edge */
+  background-clip: padding-box;
+  background-image: linear-gradient(180deg, var(--sb-thumb-from), var(--sb-thumb-to));
+  box-shadow:
+    0 0 10px var(--sb-glow),
+    inset 0 0 8px rgba(255,255,255,0.15);
+  transition: box-shadow 200ms ease, background-image 200ms ease, transform 200ms ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  box-shadow:
+    0 0 14px var(--sb-glow),
+    0 0 26px var(--sb-glow),
+    inset 0 0 10px rgba(255,255,255,0.2);
+  transform: translateY(-1px);
+  background-image: linear-gradient(180deg, #2d7cff, #28d4ff);
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Optional subtle “breathing” neon when not hovering */
+@media (prefers-reduced-motion: no-preference) {
+  *::-webkit-scrollbar-thumb {
+    animation: neonPulse 2.6s ease-in-out infinite alternate;
+  }
+  @keyframes neonPulse {
+    0%   { box-shadow: 0 0 8px var(--sb-glow), inset 0 0 6px rgba(255,255,255,0.12); }
+    100% { box-shadow: 0 0 14px var(--sb-glow), inset 0 0 10px rgba(255,255,255,0.2); }
   }
 }
