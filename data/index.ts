@@ -85,7 +85,7 @@ export const projects = [
     title: "Cryptoverse",
     des: "Check Cryptos Real time Latest News and Market level for your next investment, Friendly UI and UX.",
     img: "/cryPic.png",
-    iconLists: ["/re.svg", "/tail.svg", "/redux.png", "/Ant Design.png", "/icons8-javascript-48.png"],
+    iconLists: ["/re.svg", "/tail.svg", "/Redux.png", "/Ant Design.png", "/icons8-javascript-48.png"],
     link: "https://cryptoverseredux.netlify.app/",
   },
   {
