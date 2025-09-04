@@ -126,7 +126,7 @@ export const testimonials = [
       "I started my startup Ecommerce and I asked mussadiq to build me website and he did wonderful leaving me impress and wonder he is one of talented man and discipline to his work. No deadlines, he give you work on exact time i asked for he is wonderful man and good developer",
     name: "Khushal Khan",
     title: "Client",
-    src: "/t2.png"
+    src: "/t3.png"
   },
   {
     quote:
