@@ -30,7 +30,7 @@ export const TextGenerateEffect = React.memo(({
         delay: stagger(0.2),
       }
     );
-  }, [scope.current, animate, duration, filter]);
+  }, [animate, duration, filter]);
 
   const renderWords =  useCallback(() => {
     return (
@@ -51,7 +51,7 @@ export const TextGenerateEffect = React.memo(({
       </motion.div>
     );
   }
-, [])
+, [filter, scope, wordsArray])
   return (
     <div className={cn("font-extrabold italic", className)}>
       <div className="my-4">
