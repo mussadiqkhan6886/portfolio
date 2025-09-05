@@ -5,7 +5,7 @@ import { stagger } from "motion";
 import { cn } from "@/lib/utils";
 import React from "react";
 
-export const TextGenerateEffect = React.memo(({
+const TextGenerateEffectComponent = ({
   words,
   className,
   filter = true,
@@ -61,4 +61,6 @@ export const TextGenerateEffect = React.memo(({
       </div>
     </div>
   );
-});
+};
+
+export const TextGenerateEffect = React.memo(TextGenerateEffectComponent);

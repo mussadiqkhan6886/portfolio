@@ -1,5 +1,5 @@
 import Grid from '@/components/Grid'
-import Hero from '@/components/Hero'
+import {Hero} from '@/components/Hero'
 import { FloatingNav } from '@/components/ui/FloatingNav'
 import React from 'react'
 import RecentProjects from "@/components/RecentProjects"

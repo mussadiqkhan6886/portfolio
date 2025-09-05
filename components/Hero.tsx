@@ -5,7 +5,7 @@ import MagicButton from './ui/MagicButton'
 import {FaLocationArrow} from "react-icons/fa"
 import { FaFile } from 'react-icons/fa';
 
-const Hero = React.memo(() => {
+const HeroComponent = () => {
   return (
     <div className='pb-20 pt-36'>
       <div>
@@ -36,7 +36,7 @@ const Hero = React.memo(() => {
       </div>
     </div>
   )
-})
+}
 
-export default Hero
+export const Hero = React.memo(HeroComponent)
  
