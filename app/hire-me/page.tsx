@@ -12,12 +12,18 @@ import { Metadata } from 'next'
 export const  generateMetadata = () : Metadata => {
   return {
     title: "Hire Me",
-    description: "Hire mussadiq for frontend web development" ,
+    description: "Hire mussadiq for frontend web development, fullstack web development and for your Project" ,
     applicationName: "Personal portfolio",
     authors: [{url: "", name: "Mussadiq khan"}],
     keywords: ["Portfolio", "Modern Portfolio", "Web developer", "UI/UX"]
   }
 } 
+
+export const generateStaticParams = () => {
+ return {
+  params: {}
+ }
+}
 
 const page = () => {
 
