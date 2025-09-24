@@ -51,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a 2d Gaming Platform",
-    description: "Gameology",
+    title: "Currently Running own freelancing Agency",
+    description: "Scrupulous",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "dark:bg-transparent bg-gray-500 absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -99,9 +99,9 @@ export const projects = [
   {
     id: 4,
     title: "Zayphire",
-    des: "Professional Ecommerce store for Client, Order functionality, sorting and much more",
-    img: "/zaypPic.png",
-    iconLists: ["/re.svg", "/tail.svg", "/icons8-javascript-48.png", "/icons8-css-48.png"],
+    des: "Professional SEO optimized fullstack Ecommerce store for Client, Used cloudinary to host image",
+    img: "/zayphire.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/MongoDb.png", "/nextauth.png"],
     link: "https://zayphire.netlify.app/",
   },
 ];
