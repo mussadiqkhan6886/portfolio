@@ -9,7 +9,8 @@ const inter = Cinzel({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Mussadiq's Portfolio",
-  description: "Modern eye catching portfolio",
+  description: "Hello I am mussadiq khan and this is my portfolio show casing my skills and my past work plus experience, Discover more about me in here",
+  keywords: ["Portfolio", "mussadiq khan", "scrupulous", "web developer", "portfolio"]
 };
 
 export default function RootLayout({
