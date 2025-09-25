@@ -189,5 +189,5 @@ export const socialMedia = [
 
 
 export const icons = [
-  "/three.svg", "/Sass.png", "/Redux.png", "/re.svg", "/nextauth.png", "/fm.svg", "/MongoDB.png", "/ts.svg", "/Ant Design.png", "/icons8-bootstrap-48.png", "/icons8-c++-48.png", "/icons8-css-48.png", "/git.svg", "/icons8-figma-48.png", "/icons8-html-48.png", "/icons8-illustrator-48.png", "/icons8-javascript-48.png", "/icons8-material-ui-48.png", "/next.svg", "/icons8-photoshop-48.png", "/icons8-python-48.png", "/tail.svg"
+  "/three.svg", "/Sass.png", "/Redux.png", "/re.svg", "/nextauth.png", "/fm.svg", "/MongoDB.png", "/ts.svg", "/Ant Design.png", "/icons8-bootstrap-48.png", "/icons8-c++-48.png", "/icons8-css-48.png", "/git.svg", "/icons8-figma-48.png", "/icons8-html-48.png", "/icons8-illustrator-48.png", "/icons8-javascript-48.png", "/icons8-material-ui-48.png", "/next.svg", "/icons8-photoshop-48.png", "/icons8-python-48.png", "/tail.svg", "/cloudinary.png"
 ]

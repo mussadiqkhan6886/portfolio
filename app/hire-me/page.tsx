@@ -1,3 +1,5 @@
+export const dynamic = "force-static"
+
 import React from 'react'
 import Image from 'next/image'
 import { HireMeInfinite } from '@/components/ui/HireMeInfinite'
@@ -19,11 +21,6 @@ export const  generateMetadata = () : Metadata => {
   }
 } 
 
-export const generateStaticParams = () => {
- return {
-  params: {}
- }
-}
 
 const page = () => {
 
