@@ -101,8 +101,8 @@ export const projects = [
     title: "Zayphire",
     des: "Professional SEO optimized fullstack Ecommerce store for Client, Used cloudinary to host image",
     img: "/zayphire.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/MongoDb.png", "/nextauth.png"],
-    link: "https://zayphire.netlify.app/",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/MongoDB.png", "/nextauth.png", "/cloudinary.png"],
+    link: "https://zayphiretesting.vercel.app/",
   },
 ];
 
