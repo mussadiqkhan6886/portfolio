@@ -90,11 +90,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Admin Dashboard",
-    des: "Admin Dashboard optimized then before with products and user tables and data to represent with charts.",
-    img: "/adminPic.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/icons8-material-ui-48.png", "/Sass.png"],
-    link: "https://typescriptadmindashbaord.netlify.app/",
+    title: "Iqzaibessence",
+    des: "Designed and developed the Iqzaibessence  brand site, optimized for speed, accessibility, and modern aesthetics.",
+    img: "/d30.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/MongoDB.png", "/cloudinary.png", "/nextauth.png"],
+    link: "https://hairoilbyiqra.vercel.app/",
   },
   {
     id: 4,
@@ -135,6 +135,17 @@ export const testimonials = [
     title: "Senior backend developer at sequenx b.v.",
     src: "/t4.png"
   },
+  {
+    quote: "Excellent Work, It's so pleasing to work with you, You are doing so good May Allah bless you more n more",
+    name: "Iqzaibessence",
+    title: "Client",
+    src: "/iqza.jpg"
+  },{
+    quote: "I am fully satisfied with his work. He is polite, makes changes on demand and has built a fast and clean website. He truly knows his work and is one of the best. Really appreciated",
+    name: "Zayphire",
+    title: "Client",
+    src: "/zay.jpg"
+  }
 ];
 
 

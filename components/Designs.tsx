@@ -25,7 +25,7 @@ export function ThreeDMarqueeDemo() {
     "/d19.png",
     "/d21.png",
     "/d22.png",
-    
+    "/d30.png",
     "/d24.png",
     "/d25.png",
     "/d26.png",
