@@ -16,7 +16,7 @@ import { BackgroundRippleEffect } from '@/components/ui/background-ripple-effect
 const page = () => {
   return (
     <main className='relative dark:bg-black-100 bg-white flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5'>
-      <div className="max-w-8xl w-full">
+      <div className="max-w-7xl mx-auto w-full">
         <BackgroundRippleEffect />
         <FloatingNav navItems={navItems}  />
         <Hero /> 
