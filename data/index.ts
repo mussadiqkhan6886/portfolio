@@ -85,9 +85,9 @@ export const projects = [
     id: 1,
     title: "True Horizon ",
     des: "AI Automation and website development Agency in UK.",
-    img: "/promptPic.png",
-    iconLists: ["/tail.svg", "/next.svg", "/ts.svg", "/MongoDB.png", "/nextauth.png"],
-    link: "https://promptopiaai-coral.vercel.app/",
+    img: "/website.png",
+    iconLists: ["/tail.svg", "/next.svg", "/ts.svg", "/MongoDB.png", "/cloudinary.png"],
+    link: "https://truehorizon.uk",
   },
   {
     id: 2,
@@ -99,11 +99,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Iqzaibessence",
-    des: "Designed and developed the Iqzaibessence  brand site, optimized for speed, accessibility, and modern aesthetics.",
-    img: "/d30.png",
+    title: "M&Z Store",
+    des: "Designed and developed the M&Z Store brand site, optimized for speed, accessibility, and modern aesthetics.",
+    img: "/mz.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/MongoDB.png", "/cloudinary.png", "/nextauth.png"],
-    link: "https://hairoilbyiqra.vercel.app/",
+    link: "https://mzstorepk.com",
   },
   {
     id: 4,
