@@ -8,11 +8,13 @@ export const navItems = [
 ];
 
 export const gridItems = [
+  // Row 1 — 2 items
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "I’m Mussadiq Khan, a creative mind with a disciplined approach to problem-solving. I thrive on turning ideas into sleek, functional web experiences, blending design sense with clean code. Always curious and constantly learning, I see every project as a chance to grow and push boundaries. Through freelancing and client collaborations, I focus on delivering digital solutions that are not only visually engaging but also purposeful and result-driven",
-    className: "col-span-6 lg:col-span-2 md:col-span-6 md:row-span-4",
+    title: "I prioritize client collaboration, fostering open communication",
+    description:
+      "I’m Mussadiq Khan, a creative mind with a disciplined approach to problem-solving. I thrive on turning ideas into sleek, functional web experiences, blending design sense with clean code. Always curious and constantly learning, I see every project as a chance to grow and push boundaries. Through freelancing and client collaborations, I focus on delivering digital solutions that are visually engaging and result-driven.",
+    className: "col-span-1 md:col-span-3",
     imgClassName: "",
     titleClassName: "justify-end mt-8",
     img: "",
@@ -22,48 +24,54 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "col-span-6 h-[170px] lg:col-span-2 md:col-span-3 md:row-span-2 lg:row-span-4 md:h-[170px] lg:h-full",
+    className: "col-span-1 md:col-span-3",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
     spareImg: "",
   },
+
+  // Row 2 — 1 full width item
   {
     id: 3,
     title: "My Services",
     description: "Improving Daily",
-    className: "col-span-6 lg:col-span-6 md:col-span-3 md:row-span-2 lg:row-span-3 h-[170px] md:h-[170px] lg:h-[240px]",
+    className: "col-span-1 md:col-span-6 h-[230px]",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
   },
+
+  // Row 3 — 2 side-by-side
   {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
     description: "",
-    className: "col-span-6 md:row-span-2",
+    className: "col-span-1 md:col-span-3",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title: "Currently Running own freelancing Agency",
     description: "Scrupulous",
-    className: "col-span-6 md:row-span-2",
-    imgClassName: "dark:bg-transparent bg-gray-500 absolute right-0 bottom-0 md:w-96 w-60",
+    className: "col-span-1 md:col-span-3",
+    imgClassName:
+      "dark:bg-transparent bg-gray-500 absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
+
+  // Row 4 — full width item
   {
     id: 6,
     title: "Do you want to start a project together?",
     description: "",
-    className: "col-span-6 text-white dark:text-white md:row-span-2",
+    className: "col-span-1 md:col-span-6 text-white dark:text-white",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
@@ -71,11 +79,12 @@ export const gridItems = [
   },
 ];
 
+
 export const projects = [
   {
     id: 1,
-    title: "Promptopia ",
-    des: "Create and Search AI Prompts for your daily use.",
+    title: "True Horizon ",
+    des: "AI Automation and website development Agency in UK.",
     img: "/promptPic.png",
     iconLists: ["/tail.svg", "/next.svg", "/ts.svg", "/MongoDB.png", "/nextauth.png"],
     link: "https://promptopiaai-coral.vercel.app/",
